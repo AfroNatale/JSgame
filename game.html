@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JS BattleStar</title>
+<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' />
+<link rel="stylesheet" href="Assets/Styles/Main.css">
+</head>
+<body>
+<div id="game">
+<script src="Assets/Script/Game.js"></script>
+<script src="Assets/Script/Keys.js"></script>
+<script src="Assets/Script/Variables.js"></script>
+<script language="JavaScript">
+var enemy_speed = 1;
+var enemy_bullets = 3;
+var bullet_speed = 2;
+var scroll_speed = 1;
+var score = 0;
+var life = 3;
+var gameOver = 0;
+initEnemies();
+initEnemiesBullet();
+playMusic();
+main();
+</script>
+</div>
+</body>
+</html>
