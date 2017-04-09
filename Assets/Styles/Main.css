@@ -1,0 +1,68 @@
+body {
+	padding:0;
+	margin:0;
+	background:#666;
+}
+
+canvas {
+	display:block;
+	margin:30px auto 0;
+	border:1px dashed #ccc;
+	background:#000;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu_content{
+	display:block;
+	margin:30px 120px 120px 120px;
+	border:1px dashed #ccc;
+	background: #4F5B5E;
+	padding-bottom: 20px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+10,545454+100 */
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 10%, rgba(84,84,84,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 10%,rgba(84,84,84,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 10%,rgba(84,84,84,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#545454',GradientType=0 ); /* IE6-9 */
+
+}
+
+.button{
+	width: 200px;
+	display: block;
+	font-size: 30px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 20px;
+	background: #000;
+	border-radius: 10px;
+	margin-top: 10px;
+	color: #FFF;
+}
+
+.button:hover{
+	color: #000;
+	background: #FFF;
+}
+
+.top{
+	text-align: center;
+	padding-top: 20px;
+	height: 250px;
+}
+
+.top h1{
+	margin: 0px;
+	font-size: 50px;
+	color: #000;
+}
+
+.instructions{
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 20px;
+}
